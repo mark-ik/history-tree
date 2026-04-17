@@ -1,10 +1,10 @@
-#+TITLE: Global History Tree
+#+TITLE: Global History Tree, in Rust!
 
 # NOTE: Should have been called "shared history tree" instead?
 
 This data structure can be used to store the history of visited paths or URLs
 with a file or web browser, in a way that no "forward" element is ever
-forgotten.
+forgotten. (I, markik, am gonna rewrite this thing in rust for graphshell!)
 
 The history tree is "global" in the sense that multiple owners (e.g. tabs) can
 have overlapping histories.  On top of that, an owner can spawn another one,
